@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Корзина | Mappin</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Header Area -->
+    <header class="header_area">
+       <!-- Main Menu -->
+        <div class="bigshop-main-menu">
+            <div class="container">
+                <div class="classy-nav-container breakpoint-off">
+                    <nav class="classy-navbar" id="bigshopNav">
+
+                        <!-- Nav Brand -->
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt="logo"></a>
+
+                        <!-- Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Close -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav -->
+                            <div class="classynav">
+                                <ul>
+                                        <li><a href="index.html">Главная страница</a>
+                                        <li><a href="geography.html">Географика</a></li>
+                                        <li><a href="about.html">Суть</a></li>
+                                        <li><a href="contact.html">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Hero Meta -->
+                        <div class="hero_meta_area ml-auto d-flex align-items-center justify-content-end">
+
+                            <!-- Cart -->
+                            <div class="cart-area">
+                                <div class="cart--btn"><i class="icofont-cart"></i> <span class="cart_quantity">2</span></div>
+
+                                <!-- Cart Dropdown Content -->
+                                <div class="cart-dropdown-content">
+                                    <ul class="cart-list">
+                                        <li>
+                                            <div class="cart-item-desc">
+                                                <a href="#" class="image">
+                                                    <img src="img/product-img/best-4.png" class="cart-thumb" alt="">
+                                                </a>
+                                                <div>
+                                                    <a href="#">Headphone</a>
+                                                    <p>2x - <span class="price">$49.99</span></p>
+                                                </div>
+                                            </div>
+                                            <span class="dropdown-product-remove"><i class="icofont-bin"></i></span>
+                                        </li>
+                                    </ul>
+                                    <div class="cart-pricing my-4">
+                                        <ul>
+                                            <li>
+                                                <span>Total:</span>
+                                                <span>$856.63</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="cart-box">
+                                        <a href="checkout-1.html" class="btn btn-primary d-block">Корзина</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Account -->
+                            <div class="account-area">
+                                <div class="user-thumbnail">
+                                    <img src="img/bg-img/user.jpg" alt="">
+                                </div>
+                                <ul class="user-meta-dropdown">
+                                    <li class="user-title">Ваш имя</li>
+                                    <li><a href="my-account.html">Мой аккаунт</a></li>
+                                    <li><a href="order-list.html">Список заказов</a></li>
+                                    <li><a href="login.html"><i class="icofont-logout"></i>Выход</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+    
+    <!-- Breadcumb Area -->
+    <div class="breadcumb_area">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <h5><b>Корзина</b></h5>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                        <li class="breadcrumb-item active">Корзина</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcumb Area -->
+
+    <!-- Cart Area -->
+    <div class="cart_area section_padding_100_70 clearfix">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-12">
+                    <div class="cart-table">
+                        <div class="table-responsive">
+                            <table class="table table-bordered mb-30">
+                                <thead>
+                                    <tr>
+                                        <th scope="col"><i class="icofont-ui-delete"></i></th>
+                                        <th scope="col">Фото</th>
+                                        <th scope="col">Продукт</th>
+                                        <th scope="col">Цена за единицу</th>
+                                        <th scope="col">Количество</th>
+                                        <th scope="col">Общее</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <i class="icofont-close"></i>
+                                        </th>
+                                        <td>
+                                            <img src="img/product-img/onsale-1.png" alt="Product">
+                                        </td>
+                                        <td>
+                                            <a href="#">Bluetooth Speaker</a>
+                                        </td>
+                                        <td>$9</td>
+                                        <td>
+                                            <div class="quantity">
+                                                <input type="number" class="qty-text" id="qty2" step="1" min="1" max="99" name="quantity" value="1">
+                                            </div>
+                                        </td>
+                                        <td>$9</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="cart-apply-coupon mb-30">
+                        <h6>Есть купон?</h6>
+                        <p>Введите код купона здесь &amp; получите отличные скидки!</p>
+                        <!-- Form -->
+                        <div class="coupon-form">
+                            <form action="#">
+                                <input type="text" class="form-control" placeholder="Введите код купона">
+                                <button type="submit" class="btn btn-primary">Применить купон</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-5">
+                    <div class="cart-total-area mb-30">
+                        <h5 class="mb-3">Итоги корзины</h5>
+                        <div class="table-responsive">
+                            <table class="table mb-3">
+                                <tbody>
+                                    <tr>
+                                        <td>Промежуточный итог</td>
+                                        <td>$56.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Общее</td>
+                                        <td>$71.60</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a href="checkout-1.html" class="btn btn-primary d-block">Перейти к оформлению заказа</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cart Area End -->
+
+    <!-- Footer Area -->
+    <footer class="footer_area section_padding_100_0">
+        <div class="container">
+            <div class="row">
+                <!-- Single Footer Area -->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <div class="single_footer_area mb-100">
+                        <div class="footer_heading mb-4">
+                            <h6>Контакты</h6>
+                        </div>
+                        <ul class="footer_content">
+                            <li><span>Адресс:</span> Lords, London, UK - 1259</li>
+                            <li><span>Телефон:</span> 002 63695 24624</li>    
+                            <li><span>Email:</span> support@example.com</li>
+                        </ul>
+                        <div class="footer_social_area mt-15">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Footer Area -->
+                <div class="col-12 col-sm-6 col-md col-lg-4 col-xl-3">
+                    <div class="single_footer_area mb-100">
+                        <div class="footer_heading mb-4">
+                            <h6> Аккаунт</h6>
+                        </div>
+                        <ul class="footer_widget_menu">
+                             <li><a href="order.html"><i class="icofont-rounded-right"></i>Заказы</a></li>
+                            <li><a href="delivary_info.html"><i class="icofont-rounded-right"></i> Информация о доставке</a></li>
+                            <li><a href="your_account.html"><i class="icofont-rounded-right"></i>Ваш аккаунт</a></li>
+                            <li><a href="my-cart.html"><i class="icofont-rounded-right"></i>Корзина</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                 <!-- Single Footer Area -->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <div class="single_footer_area mb-100">
+                        <div class="footer_heading mb-4">
+                            <h6>Ссылки</h6>
+                        </div>
+                        <ul class="footer_widget_menu">
+                            <li><a href="index.html"><i class="icofont-rounded-right"></i>Главная</a></li>
+                            <li><a href="about.html"><i class="icofont-rounded-right"></i>Суть</a></li>
+                            <li><a href="geography.html"><i class="icofont-rounded-right"></i>Географика</a></li>
+                            <li><a href="contact.html"><i class="icofont-rounded-right"></i>Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Single Footer Area -->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <div class="single_footer_area mb-100">
+                        <div class="footer_heading mb-4">
+                            <h6>Служба поддержки</h6>
+                        </div>
+                        <ul class="footer_widget_menu">
+                             <li><a href="cookies.html"><i class="icofont-rounded-right"></i>Cookies</a></li>
+                            <li><a href="help.html"><i class="icofont-rounded-right"></i> Помощь</a></li>
+                            <li><a href="terms_of_service.html"><i class="icofont-rounded-right"></i> Условия обслуживания</a></li>
+                            <li><a href="privacy_policy.html"><i class="icofont-rounded-right"></i> Политика конфиденциальности</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area -->
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/default/classy-nav.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/default/scrollup.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jarallax.min.js"></script>
+    <script src="js/jarallax-video.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/default/active.js"></script>
+
+</body>
+
+</html>
